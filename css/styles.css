@@ -125,3 +125,15 @@ body {
     border: none;
     margin-bottom: 10%;
 }
+
+.comentario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.comentario img {
+    width: 10%;
+    margin-right: 5%;
+}
