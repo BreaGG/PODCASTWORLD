@@ -123,11 +123,5 @@ body {
     flex-shrink: 0;
     background-color: #000;
     border: none;
-    float: right;
-}
-
-.social {
-    margin-top: 50%;
-    width: 15%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 10%;
 }
