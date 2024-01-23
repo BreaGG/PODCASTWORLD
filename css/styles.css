@@ -32,6 +32,18 @@ body {
     border-radius: 0px;
 }
 
+.sinborde {
+    border: none;
+}
+
+.dark {
+    color: #000;
+}
+
+.dark:hover {
+    color: #000;
+}
+
 .welcome-h1 {
     text-align: center;
     margin-top: 5%;
