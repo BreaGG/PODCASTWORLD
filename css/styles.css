@@ -131,9 +131,26 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5%;
+    text-align: left;
 }
 
 .comentario img {
     width: 10%;
     margin-right: 5%;
+    border-radius: 100%;
+}
+
+label {
+    margin-top: 3%;
+    color: #000;
+    font-size: 3.333vw;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+textarea {
+    height: 10rem;
+    margin-bottom: 5%;
 }
