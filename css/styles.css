@@ -93,7 +93,6 @@ body {
     flex-shrink: 0;
     background-color: #000;
     color: #fff;
-    font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -101,6 +100,7 @@ body {
     text-decoration: none;
     border-radius: none;
     border: none;
+    cursor: pointer;
 }
 
 .margen {
@@ -153,4 +153,12 @@ label {
 textarea {
     height: 10rem;
     margin-bottom: 5%;
+}
+
+.contenedormodal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
 }
