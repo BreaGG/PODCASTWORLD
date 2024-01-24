@@ -162,7 +162,7 @@
             </div>
         </div>
         <div class="d-flex justify-content-end">
-            <a class="boton-card" href="podcastgrid.html">SEE MORE</a>
+            <a class="boton-card" href="podcastgrid.html" data-toggle="tooltip" data-placement="top" title="SEE AL OUR PODCAST">SEE MORE</a>
         </div>
     </div>
     <div class="modal fade" id="ModalInterneto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -267,7 +267,7 @@
                 </div>
             </div>
         </div>
-    <div class="container mt-3">
+    <section class="container mt-3">
         <h2 class="bold titulo">COMMUNITY FORUM</h2>
         <div class="media mb-3 borde">
             <div class="media-body margen">
@@ -312,7 +312,7 @@
                 </div>
             </form>
         </div>
-    </div>
+    </section>
     <footer class="container">
         <div class="d-flex justify-content-center">
             <a href="https://www.facebook.com/" target="_blank">
@@ -359,6 +359,10 @@
                 $('#carouselExampleIndicators').carousel('next');
             }, 10000);
         });
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
     </script>
 </body>
 

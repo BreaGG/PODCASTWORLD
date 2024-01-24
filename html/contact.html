@@ -84,7 +84,8 @@
             <textarea class="form-control borde" id="FormControlTextarea1" rows="3"></textarea>
         </div>
         <div class="d-flex justify-content-end">
-            <button type="submit" class="botton-coment">SEND</button>
+            <button type="submit" class="botton-coment" data-toggle="tooltip" data-placement="top"
+            title="SEND">SEND</button>
         </div>
     </form>
 
@@ -122,6 +123,12 @@
         </div>
 
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
 
 </html>

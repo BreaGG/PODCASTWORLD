@@ -7,6 +7,8 @@ body {
 
 }
 
+/* Aqui creo mis propias clase de css para el peso y tamaño de la fuente */
+
 .bold {
     font-weight: 900;
 }
@@ -27,6 +29,8 @@ body {
     font-size: 1.667vw;
 }
 
+/* Aqui creo algunas fuentes para bordes y colores */
+
 .borde {
     border: 1px solid #000;
     border-radius: 0px;
@@ -44,11 +48,15 @@ body {
     color: #000;
 }
 
+/* Esta es una fuente de posicionamientos para sub sub titulos */
+
 .welcome-h1 {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+/* Estos estilos son para el posicionamiento del titulo y el boton del carrousel */
 
 .carousel-caption-container {
     position: absolute;
@@ -72,6 +80,8 @@ body {
     font-size: 1.25vw;
     margin-bottom: 10%;
 }   
+
+/* Estilo para los botones y las imagenes */
 
 .boton-hero {
     padding: 0.833vw;
@@ -153,6 +163,8 @@ body {
     border-radius: 100%;
 }
 
+/* Estilos para el formulario */
+
 label {
     margin-top: 3%;
     color: #000;
@@ -175,10 +187,9 @@ textarea {
     justify-content: center;
 }
 
-.tabla {
-    text-align: center;
-}
+/* estilos para la tabla, alineo de texto y margen inferior con el footer */
 
 .tabla {
+    text-align: center;
     margin-bottom: 5rem;
 }
